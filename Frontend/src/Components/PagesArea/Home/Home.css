@@ -1,0 +1,49 @@
+.Home {
+    padding: 2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8fafc;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+        0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.about-section {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.about-section h2 {
+    font-size: 1.5rem;
+    color: #334155;
+    margin-bottom: 1rem;
+}
+
+.about-section p {
+    font-size: 1rem;
+    color: #475569;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.github-link {
+    font-size: 1rem;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.github-link:hover {
+    color: #2563eb;
+    text-shadow: 0 1px 3px rgba(37, 99, 235, 0.5);
+}
+
+
+.about-section p + p {
+    margin-top: 1rem;
+}
